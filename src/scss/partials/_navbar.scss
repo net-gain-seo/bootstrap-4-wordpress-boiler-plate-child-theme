@@ -1,0 +1,23 @@
+.navbar-light{
+	.navbar-nav {
+		.nav-link{
+			color: $nav-link-color;
+			&:hover{
+				color: darken($nav-link-color,30%);
+			}
+		}
+
+		.nav-item{
+			&.dropdown{
+				&:hover{
+					ul{
+						&.dropdown-menu{
+							display: block;
+						}
+					}
+				}
+			}
+		}
+
+	}
+}
