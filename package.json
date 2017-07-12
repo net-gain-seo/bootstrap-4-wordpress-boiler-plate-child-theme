@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-4-wordpress-boiler-plate-child-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/net-gain-seo/bootstrap-4-wordpress-boiler-plate-child-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/net-gain-seo/bootstrap-4-wordpress-boiler-plate-child-theme/issues"
+  },
+  "homepage": "https://github.com/net-gain-seo/bootstrap-4-wordpress-boiler-plate-child-theme#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
