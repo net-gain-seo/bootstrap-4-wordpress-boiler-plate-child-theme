@@ -12,12 +12,15 @@
 .navbar-light .navbar-nav .nav-item.dropdown:hover ul.dropdown-menu {
   display: block; }
 
-.card-header {
-  background-color: #959cb5; }
+/*
+.card-header{
+	background-color: darken($body-background-color,20%);
+}
 
-.card-block {
-  background-color: #d1d4df; }
-
+.card-block{
+	background-color: $body-background-color;
+}
+*/
 body {
   background-color: #d1d4df; }
 
