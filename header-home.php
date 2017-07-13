@@ -51,7 +51,7 @@
 
 	<section class="container jumbotron">
 		<div class="d-flex justify-content-center text-center">
-			<p class="display-4 ">This is a really awesome call to action</p>
+			<p class="display-4 ">The right bean and brewing technique</p>
 		</div>
 		<div class="d-flex justify-content-center text-center">
 			<p class="lead">Give us a call at: 555-555-5555</p>

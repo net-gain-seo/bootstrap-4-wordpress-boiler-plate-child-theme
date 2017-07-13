@@ -3,7 +3,10 @@
   color: #ffffff; }
 
 .mainBackgroundColor {
-  background-color: #153134; }
+  background-color: #f1f1f1; }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .75em; }
 
 .navbar-light .navbar-nav .nav-link {
   color: #ffffff; }
@@ -21,14 +24,49 @@
 	background-color: $body-background-color;
 }
 */
+.card {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); }
+
+article.card {
+  margin-bottom: 50px; }
+
+.card-header {
+  font-weight: 600;
+  font-size: 1.25em;
+  background-color: #ddd; }
+  .card-header h3 {
+    margin-bottom: 0px; }
+    .card-header h3 a {
+      color: #635041; }
+
+.btn-primary {
+  background-color: #635041;
+  border-color: #635041; }
+  .btn-primary:hover {
+    background-color: #44372d;
+    border-color: #44372d; }
+
+.widget {
+  margin-bottom: 20px; }
+
 body {
   background-color: #d1d4df; }
 
+img {
+  max-width: 100%;
+  height: auto; }
+
+.paralax {
+  background-attachment: fixed;
+  background-position: center center; }
+
 header.header {
-  background-color: #212121; }
+  background-color: #332c27; }
   header.header.image-header {
-    background-image: url("../../assets/img/traffic-from-above_4460x4460.jpg");
+    background-image: url("../../assets/img/coffee-break_4460x4460.jpg");
     background-size: cover; }
+    header.header.image-header .container-fluid.menu {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, transparent 100%); }
   header.header .container {
     padding: 0px; }
     header.header .container.jumbotron {
@@ -41,13 +79,12 @@ header.header {
         text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
         font-weight: 600; }
   header.header .container-fluid.menu {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
     padding: 2em 0; }
 
 .container {
   padding: 50px 0; }
 
 footer.footer {
-  background-color: #212121; }
+  background-color: #332c27; }
 
 /*# sourceMappingURL=main.css.map */

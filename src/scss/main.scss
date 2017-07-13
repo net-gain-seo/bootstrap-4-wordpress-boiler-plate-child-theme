@@ -1,18 +1,37 @@
 @import "partials/_mixins";
 @import "partials/_typeography";
 @import "partials/_navbar";
-@import "partials/_card";
+
+@import "partials/components/_card";
+@import "partials/components/_button";
+
+@import "partials/components/_widget";
 
 body{
 	background-color: $body-background-color;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.paralax{
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 header{
 	&.header{
 
 		&.image-header{
-			background-image: url('../../assets/img/traffic-from-above_4460x4460.jpg');
+			background-image: url('../../assets/img/coffee-break_4460x4460.jpg');
 			background-size: cover;
+
+			.container-fluid{
+				&.menu{
+					background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+				}
+			}
 		}
 		background-color:  $header-footer-background-color;
 
@@ -35,7 +54,6 @@ header{
 
 		.container-fluid{
 			&.menu{
-				background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
 			    padding: 2em 0;	
 			}
 		}
