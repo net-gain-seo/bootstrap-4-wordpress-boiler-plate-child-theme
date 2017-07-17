@@ -1,5 +1,11 @@
 <?php 
 
+//INCLUDE BOOTSTAP
+function bootstrap_4_wordpress_boiler_plate_enqueue_style() {
+    wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri().'/src/css/bootstrap/bootstrap.css', false ); 
+}
+add_action( 'wp_enqueue_scripts', 'bootstrap_4_wordpress_boiler_plate_enqueue_style',10 );
+
 register_sidebar(array(
     'name' => 'Blog Sidebar',
     'id' => 'blog-sidebar',
